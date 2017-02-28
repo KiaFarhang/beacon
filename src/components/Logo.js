@@ -4,8 +4,8 @@ import './App.css';
 class Logo extends Component {
   render() {
     return (
-      <div className="Logo">
-          <img src='http://lorempixel.com/400/200' className="App-logo" alt="logo" />
+      <div className="logo-container">
+          <img src={this.src} className="logo" alt="logo" />
       </div>
     );
   }
